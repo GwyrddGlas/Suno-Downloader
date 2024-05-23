@@ -1,0 +1,16 @@
+C:\Users\l\source\repos\sunoDownload\sunoDownload\bin\Release\net8.0-windows\sunoDownload.exe
+C:\Users\l\source\repos\sunoDownload\sunoDownload\bin\Release\net8.0-windows\sunoDownload.deps.json
+C:\Users\l\source\repos\sunoDownload\sunoDownload\bin\Release\net8.0-windows\sunoDownload.runtimeconfig.json
+C:\Users\l\source\repos\sunoDownload\sunoDownload\bin\Release\net8.0-windows\sunoDownload.dll
+C:\Users\l\source\repos\sunoDownload\sunoDownload\bin\Release\net8.0-windows\sunoDownload.pdb
+C:\Users\l\source\repos\sunoDownload\sunoDownload\obj\Release\net8.0-windows\sunoDownload.Form1.resources
+C:\Users\l\source\repos\sunoDownload\sunoDownload\obj\Release\net8.0-windows\sunoDownload.csproj.GenerateResource.cache
+C:\Users\l\source\repos\sunoDownload\sunoDownload\obj\Release\net8.0-windows\sunoDownload.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l\source\repos\sunoDownload\sunoDownload\obj\Release\net8.0-windows\sunoDownload.AssemblyInfoInputs.cache
+C:\Users\l\source\repos\sunoDownload\sunoDownload\obj\Release\net8.0-windows\sunoDownload.AssemblyInfo.cs
+C:\Users\l\source\repos\sunoDownload\sunoDownload\obj\Release\net8.0-windows\sunoDownload.csproj.CoreCompileInputs.cache
+C:\Users\l\source\repos\sunoDownload\sunoDownload\obj\Release\net8.0-windows\sunoDownload.dll
+C:\Users\l\source\repos\sunoDownload\sunoDownload\obj\Release\net8.0-windows\refint\sunoDownload.dll
+C:\Users\l\source\repos\sunoDownload\sunoDownload\obj\Release\net8.0-windows\sunoDownload.pdb
+C:\Users\l\source\repos\sunoDownload\sunoDownload\obj\Release\net8.0-windows\sunoDownload.genruntimeconfig.cache
+C:\Users\l\source\repos\sunoDownload\sunoDownload\obj\Release\net8.0-windows\ref\sunoDownload.dll
