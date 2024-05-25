@@ -13,14 +13,6 @@ namespace sunoDownload
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-        }
-
         private async void button1_Click(object sender, EventArgs e)
         {
             string shareLink = textBox1.Text;
@@ -35,23 +27,19 @@ namespace sunoDownload
 
             string audioUrl = $"https://cdn1.suno.ai/{songId}.mp3";
             string outputFolder = Path.Combine(Application.StartupPath, "Downloads");
-            string outputFileName = string.IsNullOrWhiteSpace(songName) ? $"{songId}.mp3" : $"{songName}.mp3";
+            string outputFileName = string.IsNullOrWhiteSpace(songName) ? $"{songId}.wav" : $"{songName}.wav";
             string outputPath = Path.Combine(outputFolder, outputFileName);
 
             using (var client = new HttpClient())
             {
                 try
                 {
-                    // Send a GET request to the CDN URL
                     HttpResponseMessage response = await client.GetAsync(audioUrl);
 
-                    // Ensure the response is successful
                     response.EnsureSuccessStatusCode();
 
-                    // Get the audio content as a byte array
                     byte[] audioBytes = await response.Content.ReadAsByteArrayAsync();
 
-                    // Create the "Downloads" folder if it doesn't exist
                     if (!Directory.Exists(outputFolder))
                     {
                         Directory.CreateDirectory(outputFolder);
